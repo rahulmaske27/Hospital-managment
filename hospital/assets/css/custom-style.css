@@ -1,0 +1,187 @@
+/* Custom CSS for Hospital Management System */
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #555;
+}
+
+.header-nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-nav .nav-item ul li a {
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.header-nav .nav-item ul li a:hover {
+    color: var(--primary-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-success {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+}
+
+.btn-success:hover {
+    background-color: #1e7e34;
+    border-color: #1e7e34;
+}
+
+.slider-detail h5 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.inner-title h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 30px;
+}
+
+.our-blog {
+    padding: 80px 0;
+    background-color: var(--light-color);
+}
+
+.our-blog .blog-single {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+.our-blog .blog-single:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.our-blog .blog-single-det {
+    padding: 30px;
+}
+
+.our-blog .blog-single-det h6 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.key-features {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.key-features .single-key {
+    background-color: var(--light-color);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.key-features .single-key:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.key-features .single-key i {
+    font-size: 3.5rem;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+.about-us {
+    background-color: var(--light-color);
+    padding: 80px 0;
+}
+
+.about-us h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--dark-color);
+}
+
+.about-us p {
+    line-height: 1.8;
+    color: #666;
+}
+
+.contact-us-single {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.contact-us-single h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 30px;
+}
+
+.contact-us-single .form-control {
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.footer {
+    background-color: var(--dark-color);
+    color: #fff;
+    padding: 60px 0 0;
+}
+
+.footer h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footer .link-list li a {
+    color: #adb5bd;
+    transition: color 0.3s ease;
+}
+
+.footer .link-list li a:hover {
+    color: #fff;
+}
+
+.copy {
+    background-color: #212529;
+    padding: 20px 0;
+    color: #adb5bd;
+}
